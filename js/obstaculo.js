@@ -13,7 +13,7 @@ var Obstaculo = function(sprite, x, y, ancho, alto, potencia) {
     // el jugador pierda vidas
     this.chocar = function(jugador) {
         jugador.perderVidas(1);
-        jugador.sprite = 'imagenes/muerto.png';
+        //jugador.sprite = 'imagenes/muerto.png';
         this.potencia = 0;
     }
 }
